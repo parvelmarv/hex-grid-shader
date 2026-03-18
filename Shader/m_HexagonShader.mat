@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: m_HexagonShader
+  m_Shader: {fileID: 4800000, guid: 3f02604a6422494428cd0385ec0b88a2, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2900
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: _WaveFrequency
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _GlowMap:
+        m_Texture: {fileID: 8400000, guid: d52da35eb541c094291957b73113606e, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BaseGridIntensity: 0.27
+    - _BulletGlowMult: 0.28
+    - _CutoutSharpness: 0.5
+    - _EmissionStrength: 1.65
+    - _FillAlpha: 0.211
+    - _FillGap: 0.042
+    - _FillHighlightBoost: 0.6
+    - _FillSoftness: 0.1
+    - _GlowFillAlpha: 0.184
+    - _GlowMapIntensity: 5
+    - _GridScale: 13.46
+    - _HighlightAlpha: 0.358
+    - _HighlightBoost: 0.41
+    - _MapWorldSize: 400
+    - _MinVisibility: 1
+    - _PlanetCutoutStep: 0.781
+    - _PlanetFalloff: 10
+    - _PlanetGlowBoost: 11.19
+    - _PlanetRadius: 7.86
+    - _PlayerBoost: 0.1
+    - _PlayerFalloff: 15.96
+    - _PlayerGlowPower: 1
+    - _PlayerRadius: 0.11
+    - _PulseSpeed: 0
+    - _Thickness: 0.01
+    - _WaveAmplitude: 0
+    - _WaveFrequency: 0
+    - _WaveSpeed: 0
+    - _WorldViewFalloff: 50
+    - _WorldViewRadius: 32.32
+    m_Colors:
+    - _BackgroundColor: {r: 0, g: 0, b: 0, a: 0}
+    - _BulletColor: {r: 0.91194963, g: 0.6227446, b: 0.32405752, a: 1}
+    - _FillColor: {r: 0, g: 1, b: 1, a: 0.3}
+    - _GridColor: {r: 0.07228742, g: 0.2679632, b: 0.27044016, a: 1}
+    - _HighlightColor: {r: 0.057493582, g: 0.9622642, b: 0.8971217, a: 1}
+    - _PlanetColor: {r: 0, g: 0, b: 0, a: 1}
+    - _PlanetCutoutPos: {r: 50, g: 0, b: 50, a: 0}
+    - _PlanetPos: {r: 50, g: 0, b: 50, a: 0}
+    - _PlayerColor: {r: 0, g: 1, b: 1, a: 1}
+    - _PlayerPos: {r: -160.77293, g: 0, b: -14.656359, a: 0}
+    - _Speed: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
